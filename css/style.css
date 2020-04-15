@@ -1,0 +1,83 @@
+/* regole reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fine regole reset */
+
+/* regole header */
+
+header {
+  background-color: yellow;
+  height: 200px;
+  width: 100%;
+}
+
+/* fine regole header */
+
+/* regole main */
+
+main {
+  margin: 10px 0;
+}
+main::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+main .col {
+  float: left;
+}
+
+main .left {
+  background: pink;
+  width: 24%;
+  height: 500px;
+}
+
+main .center {
+  background: purple;
+  width: 50%;
+  height: 500px;
+  margin: 0 1%;
+}
+
+main .right {
+  background: white;
+  width: 24%;
+
+}
+/* fine regole main */
+
+/* regole col right */
+
+main .right .upper {
+  height: 200px;
+  background: pink;
+  margin-bottom: 10px;
+
+
+
+}
+
+main .right .downer {
+  height: 400px;
+  background: pink;
+
+
+}
+
+/* fine regole col right */
+
+
+/* regole footer */
+
+footer {
+  background: cyan;
+  height: 150px;
+}
+
+/* fine regole footer */
